@@ -5,7 +5,7 @@ apt-get update
 apt install wget curl git -y
 export LANG=en_US.UTF-8
 REPO=$( echo "$URL" | sed -e "s/\([^/]*\/\/\)\?\(www\.\)\?\([^.]*\)\..*/\3/")
-wget -mpkP ./LOCAL $URL
+wget -mkEpnp ./LOCAL $URL
 cd LOCAL
 cd $(ls)
 curl \
