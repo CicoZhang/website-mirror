@@ -12,5 +12,5 @@ jobs:
                env:
                   URL: ${{ secrets.MIRROR_URL }}
                   _GITHUB_TOKEN: ${{ secrets._GITHUB_TOKEN }}
-                  USER_NAME: ${{ secrets.GITHUB_USER }}
-                  USER_EMAIL: ${{ secrets.GITHUB_USER_EMAIL }}
+                  USER_NAME: ${{ secrets.USER }}
+                  USER_EMAIL: ${{ secrets.USER_EMAIL }}
