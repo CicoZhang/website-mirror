@@ -10,7 +10,7 @@ jobs:
              - uses: actions/checkout@v1
              - uses: ./
                env:
-                  URL: www.mindiverse.foundation
-                  _GITHUB_TOKEN: fa50340a59ead238c01f0f154da70fb637f51be6
-                  USER_NAME: CicoZhang
-                  USER_EMAIL: cncico@gmail.com
+                  URL: ${{ secrets.MIRROR_URL }}
+                  _GITHUB_TOKEN: ${{ secrets._GITHUB_TOKEN }}
+                  USER_NAME: ${{ secrets.GITHUB_USER }}
+                  USER_EMAIL: ${{ secrets.GITHUB_USER_EMAIL }}
