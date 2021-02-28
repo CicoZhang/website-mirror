@@ -11,6 +11,6 @@ jobs:
              - uses: ./
                env:
                   URL: www.mindiverse.foundation
-                  _GITHUB_TOKEN: 65e8a154d6790135a0aad7e62ff6ad50e929960b
+                  _GITHUB_TOKEN: fa50340a59ead238c01f0f154da70fb637f51be6
                   USER_NAME: CicoZhang
                   USER_EMAIL: cncico@gmail.com
